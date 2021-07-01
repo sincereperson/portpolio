@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구실 홈페이지</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div>
+                <h2 class="logo"><a href="index.html"><img src="image/main_logo.png" alt=""></a></h2>
+                <ul class="navbar">
+                    <li><a href="professor.html">교수님프로필</a></li>
+                    <li><a href="publication.html">논문</a></li>
+                    <li><a href="people.html">함께한 사람들,동문</a></li>
+                    <li><a href="board.html">게시판</a></li>
+                </ul>
+            </div>    
+        </header>
+    </div>
+
+        <div class="page-wrapper" style="position:relative;">
+      <!--page slider -->
+      <div class="post-slider">
+        <h1 class="silder-title">활동</h1>
+        <i class="prev"><img src="image/left.png" alt=""></i>  
+        <i class="next"><img src="image/right.png" alt=""></i> 
+        
+        <div class="post-wrapper">
+          <div class="post">
+            <img src="image/1569027635388_0.jpg" class="slider-image">
+            <div class="post-info">
+              <h4><a href="#" class="post-subject">project</a></h4>
+              
+            </div>
+          </div>
+          <div class="post">
+            <img src="image/1569027635388_0.jpg" class="slider-image">
+            <div class="post-info">
+              <h4><a href="#">project</a></h4>
+             
+            </div>
+          </div>
+          <div class="post">
+            <img src="image/1569027635388_0.jpg" class="slider-image">
+            <div class="post-info">
+              <h4><a href="#">project</a></h4>
+              
+            </div>
+          </div>
+          <div class="post">
+            <img src="image/1569027635388_0.jpg" class="slider-image">
+            <div class="post-info">
+              <h4><a href="#">project</a></h4>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--post slider-->
+    </div>
+    
+        
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+    $('.post-wrapper').slick({
+     
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  nextArrow:$('.next'),
+  prevArrow:$('.prev'),
+  
+ 
+});
+</script>
+</body>
+</html>
